@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  margin: 0;
+
   font-family: "KonnectRegular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: './back.png';
+  background-image: url("./back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0% 20%;
 }
 
 code {
@@ -17,4 +26,13 @@ code {
  @font-face {
   font-family: "KonnectRegular";
   src: url("./fonts/KonnectRegular.otf") format("opentype");
+ }
+
+ .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+
  }
