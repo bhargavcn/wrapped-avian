@@ -1,6 +1,6 @@
 import avian from "../avian.png";
 import wavn from "../wavn.png";
-
+import rpc from "../libs/rpc";
 import { FiArrowDown } from "react-icons/fi";
 import { useState } from 'react';
 
@@ -63,7 +63,7 @@ function App() {
               <div className="modal-box">
 
                 <div className="modal-action">
-                  <label htmlFor="my-modal-6" className="btn">I Have Sent!</label>
+                  <label htmlFor="my-modal-6" onClick={rpc} className="btn">I Have Sent!</label>
                 </div>
               </div>
             </div>

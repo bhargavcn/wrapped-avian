@@ -36,3 +36,9 @@ code {
 
 
  }
+.stats shadow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
